@@ -11,7 +11,7 @@ public:
             else if(nums1[i]>nums2[j]){
                 swap(nums1[i],nums2[j]);
                 k=j;
-                while(((k+1)<n) && (nums2[k]>nums2[k+1])){
+                while((k+1)<n && nums2[k]>nums2[k+1]){
                     swap(nums2[k],nums2[k+1]);
                     k++;
                 }
